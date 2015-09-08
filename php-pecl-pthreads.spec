@@ -6,12 +6,12 @@
 %define		modname		pthreads
 Summary:	A compatible Threading API for PHP5.3+
 Name:		%{php_name}-pecl-%{modname}
-Version:	2.0.4
+Version:	2.0.10
 Release:	0.1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	ccf71e9ab439ae47cbba59b5d220a1ba
+# Source0-md5:	6a753b418f9dd0953c77d3b90af48b5f
 URL:		http://pecl.php.net/package/pthreads/
 %{?with_tests:BuildRequires:    %{php_name}-cli}
 BuildRequires:	%{php_name}-devel >= 4:5.3.0
